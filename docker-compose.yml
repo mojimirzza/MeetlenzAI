@@ -1,0 +1,31 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - llm
+
+  # In real deployment, select a serving stack and hardware profile appropriate to your GPU.
+  # DeepSeek-V4-Flash open weights are large; do not assume a normal laptop can run them.
+  llm:
+    image: lmsysorg/sglang:latest
+    command: >-
+      python3 -m sglang.launch_server
+      --model-path deepseek-ai/DeepSeek-V4-Flash
+      --host 0.0.0.0
+      --port 8000
+    ports:
+      - "8001:8000"
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+    profiles: [gpu]
+
+volumes:
+  hf_cache:
