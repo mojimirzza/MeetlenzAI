@@ -1,0 +1,398 @@
+[
+  {
+    "id": "zq-001",
+    "user_id": "product",
+    "text": "What is the target production launch date?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-002",
+    "user_id": "product",
+    "text": "Are we still aiming for the planned go-live date?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-003",
+    "user_id": "product",
+    "text": "When is the customer-facing release expected?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-004",
+    "user_id": "product",
+    "text": "What date are we committing to for production?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-005",
+    "user_id": "product",
+    "text": "When will customers actually receive the release?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-006",
+    "user_id": "product",
+    "text": "Has the launch timing been confirmed?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-007",
+    "user_id": "product",
+    "text": "Can the team confirm the go-live window?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-008",
+    "user_id": "product",
+    "text": "What is the current release target?",
+    "likes": 4,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "product",
+      "launch"
+    ]
+  },
+  {
+    "id": "zq-009",
+    "user_id": "backend",
+    "text": "What is the rollback plan for the database migration?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-010",
+    "user_id": "backend",
+    "text": "How do we revert safely if the migration fails?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-011",
+    "user_id": "backend",
+    "text": "What is our migration rollback procedure?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-012",
+    "user_id": "backend",
+    "text": "Can we restore the previous database state after a bad migration?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-013",
+    "user_id": "backend",
+    "text": "What is the tested recovery path for a failed migration?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-014",
+    "user_id": "backend",
+    "text": "How quickly can we roll back the schema change?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-015",
+    "user_id": "backend",
+    "text": "Which rollback mechanism will we use during migration?",
+    "likes": 3,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "backend",
+      "databases"
+    ]
+  },
+  {
+    "id": "zq-016",
+    "user_id": "security",
+    "text": "Which audit controls cover the migration?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "zq-017",
+    "user_id": "security",
+    "text": "How do we ensure the migration meets compliance requirements?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "zq-018",
+    "user_id": "security",
+    "text": "What evidence do we need for the audit?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "zq-019",
+    "user_id": "security",
+    "text": "Which controls prevent a migration compliance gap?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "zq-020",
+    "user_id": "security",
+    "text": "How will we demonstrate regulatory compliance for this change?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "zq-021",
+    "user_id": "sre",
+    "text": "Which signals tell us the new architecture is degrading?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-022",
+    "user_id": "sre",
+    "text": "What monitoring will detect production degradation?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-023",
+    "user_id": "sre",
+    "text": "Which metrics should trigger an incident?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-024",
+    "user_id": "sre",
+    "text": "How will we know if the service becomes unhealthy after launch?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-025",
+    "user_id": "sre",
+    "text": "What observability signals should we watch during rollout?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-026",
+    "user_id": "sre",
+    "text": "How early can monitoring detect a production problem?",
+    "likes": 1,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "observability",
+      "reliability"
+    ]
+  },
+  {
+    "id": "zq-027",
+    "user_id": "performance",
+    "text": "What latency target are we committing to?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-028",
+    "user_id": "performance",
+    "text": "How will the new architecture affect response time?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-029",
+    "user_id": "performance",
+    "text": "What performance threshold should block the release?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-030",
+    "user_id": "performance",
+    "text": "Do we have an agreed target for API latency?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-031",
+    "user_id": "architect",
+    "text": "What is the failover strategy if the primary service fails?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "architecture",
+      "resilience"
+    ]
+  },
+  {
+    "id": "zq-032",
+    "user_id": "architect",
+    "text": "How quickly can we recover from a regional failure?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "architecture",
+      "resilience"
+    ]
+  },
+  {
+    "id": "zq-033",
+    "user_id": "architect",
+    "text": "What recovery objective are we using for the new architecture?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "architecture",
+      "resilience"
+    ]
+  },
+  {
+    "id": "zq-034",
+    "user_id": "performance",
+    "text": "How much traffic can the new architecture handle?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-035",
+    "user_id": "performance",
+    "text": "What is the expected capacity limit at launch?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "performance",
+      "capacity"
+    ]
+  },
+  {
+    "id": "zq-036",
+    "user_id": "customer",
+    "text": "What customer impact should we expect during migration?",
+    "likes": 0,
+    "created_at": "2026-09-10 03:41:19.813631+00:00",
+    "expertise": [
+      "customer",
+      "operations"
+    ]
+  }
+]
