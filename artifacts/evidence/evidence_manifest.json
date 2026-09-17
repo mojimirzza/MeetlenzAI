@@ -1,0 +1,10 @@
+{
+  "evidence_level": "E2",
+  "label": "controlled_synthetic_evidence",
+  "artifacts": [
+    "benchmark.txt",
+    "zero_pilot.txt",
+    "demo.txt"
+  ],
+  "external_customer_validation": false
+}
