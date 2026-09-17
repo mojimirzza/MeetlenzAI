@@ -1,0 +1,303 @@
+{
+  "scenario": {
+    "meeting_title": "Fintech Architecture & Launch Readiness Review",
+    "domain": "fintech-architecture",
+    "agenda": "launch readiness, migration safety, compliance, observability, performance, resilience",
+    "participants": [
+      [
+        "architect",
+        "Architect",
+        [
+          "architecture",
+          "resilience"
+        ]
+      ],
+      [
+        "backend",
+        "Backend Lead",
+        [
+          "backend",
+          "databases"
+        ]
+      ],
+      [
+        "security",
+        "Security Lead",
+        [
+          "security",
+          "compliance"
+        ]
+      ],
+      [
+        "sre",
+        "SRE Lead",
+        [
+          "observability",
+          "reliability"
+        ]
+      ],
+      [
+        "product",
+        "Product Lead",
+        [
+          "product",
+          "launch"
+        ]
+      ],
+      [
+        "risk",
+        "Risk Lead",
+        [
+          "risk",
+          "compliance"
+        ]
+      ],
+      [
+        "performance",
+        "Performance Lead",
+        [
+          "performance",
+          "capacity"
+        ]
+      ],
+      [
+        "customer",
+        "Customer Lead",
+        [
+          "customer",
+          "operations"
+        ]
+      ]
+    ]
+  },
+  "status": "synthetic_zero_pilot",
+  "warning": "Synthetic controlled evidence only; not external customer validation.",
+  "input": {
+    "questions": 36,
+    "ground_truth_intents": 8,
+    "participants": 8
+  },
+  "meetlens": {
+    "fallback": true,
+    "predicted_intents": 8,
+    "compression_rate": 0.7778,
+    "cluster_pair_f1": 1.0,
+    "top5_intents": [
+      "launch",
+      "rollback",
+      "compliance",
+      "capacity",
+      "customer_impact"
+    ],
+    "top5_unique_intents": 5,
+    "pipeline_latency_ms": 116.31,
+    "top5_categories": [
+      {
+        "label": "production launch timing",
+        "intent": "production launch timing",
+        "priority": 0.8720342682464787,
+        "support": 8
+      },
+      {
+        "label": "migration rollback and recovery",
+        "intent": "migration rollback and recovery",
+        "priority": 0.8400890668259808,
+        "support": 7
+      },
+      {
+        "label": "migration compliance and audit controls",
+        "intent": "migration compliance and audit controls",
+        "priority": 0.7824499826798965,
+        "support": 5
+      },
+      {
+        "label": "system capacity and traffic limits",
+        "intent": "system capacity and traffic limits",
+        "priority": 0.6605708754507279,
+        "support": 2
+      },
+      {
+        "label": "customer impact during rollout",
+        "intent": "customer impact during rollout",
+        "priority": 0.6284502893325613,
+        "support": 1
+      }
+    ]
+  },
+  "baseline": {
+    "method": "manual-style individual-question popularity/frequency proxy",
+    "top5_intents": [
+      "launch",
+      "launch",
+      "launch",
+      "launch",
+      "launch"
+    ],
+    "top5_unique_intents": 1,
+    "intent_redundancy": 0.8
+  },
+  "coverage": {
+    "signals": [
+      {
+        "expertise": "architecture",
+        "participant_count": 1,
+        "question_count": 3,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "3 question(s) cover architecture from 1 participant(s)."
+      },
+      {
+        "expertise": "backend",
+        "participant_count": 1,
+        "question_count": 7,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "7 question(s) cover backend from 1 participant(s)."
+      },
+      {
+        "expertise": "capacity",
+        "participant_count": 1,
+        "question_count": 6,
+        "category_count": 2,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "6 question(s) cover capacity from 1 participant(s)."
+      },
+      {
+        "expertise": "compliance",
+        "participant_count": 2,
+        "question_count": 5,
+        "category_count": 1,
+        "coverage": 0.7,
+        "status": "well_covered",
+        "rationale": "Questions exist for compliance, but only 1 of 2 participants contributed one."
+      },
+      {
+        "expertise": "customer",
+        "participant_count": 1,
+        "question_count": 1,
+        "category_count": 1,
+        "coverage": 0.7333,
+        "status": "well_covered",
+        "rationale": "1 question(s) cover customer from 1 participant(s)."
+      },
+      {
+        "expertise": "databases",
+        "participant_count": 1,
+        "question_count": 7,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "7 question(s) cover databases from 1 participant(s)."
+      },
+      {
+        "expertise": "launch",
+        "participant_count": 1,
+        "question_count": 8,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "8 question(s) cover launch from 1 participant(s)."
+      },
+      {
+        "expertise": "observability",
+        "participant_count": 1,
+        "question_count": 6,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "6 question(s) cover observability from 1 participant(s)."
+      },
+      {
+        "expertise": "operations",
+        "participant_count": 1,
+        "question_count": 1,
+        "category_count": 1,
+        "coverage": 0.7333,
+        "status": "well_covered",
+        "rationale": "1 question(s) cover operations from 1 participant(s)."
+      },
+      {
+        "expertise": "performance",
+        "participant_count": 1,
+        "question_count": 6,
+        "category_count": 2,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "6 question(s) cover performance from 1 participant(s)."
+      },
+      {
+        "expertise": "product",
+        "participant_count": 1,
+        "question_count": 8,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "8 question(s) cover product from 1 participant(s)."
+      },
+      {
+        "expertise": "reliability",
+        "participant_count": 1,
+        "question_count": 6,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "6 question(s) cover reliability from 1 participant(s)."
+      },
+      {
+        "expertise": "resilience",
+        "participant_count": 1,
+        "question_count": 3,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "3 question(s) cover resilience from 1 participant(s)."
+      },
+      {
+        "expertise": "risk",
+        "participant_count": 1,
+        "question_count": 0,
+        "category_count": 0,
+        "coverage": 0.0,
+        "status": "underrepresented",
+        "rationale": "No submitted questions were tagged with risk."
+      },
+      {
+        "expertise": "security",
+        "participant_count": 1,
+        "question_count": 5,
+        "category_count": 1,
+        "coverage": 1.0,
+        "status": "well_covered",
+        "rationale": "5 question(s) cover security from 1 participant(s)."
+      }
+    ],
+    "underrepresented": [
+      "risk"
+    ],
+    "partially_covered": [],
+    "well_covered": [
+      "architecture",
+      "backend",
+      "capacity",
+      "compliance",
+      "customer",
+      "databases",
+      "launch",
+      "observability",
+      "operations",
+      "performance",
+      "product",
+      "reliability",
+      "resilience",
+      "security"
+    ],
+    "disclaimer": "Coverage is an evidence-backed moderator signal derived from declared participant expertise and submitted questions; it does not assert that an absent perspective is objectively needed."
+  },
+  "interpretation": {
+    "core_question": "Does semantic compression preserve useful diversity better than popularity-only triage?",
+    "finding": "MeetLens selects by intent-level candidates rather than individual raw questions; the benchmark should therefore be judged on intent coverage, redundancy, and moderator usefulness—not only compression."
+  }
+}
