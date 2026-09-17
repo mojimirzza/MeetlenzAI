@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-08T16:36:03.881799+00:00",
+  "status": "PRE_PILOT_CONTROLLED_EVIDENCE",
+  "warning": "Synthetic fixtures only. This is not external customer validation.",
+  "aggregate": {
+    "scenarios": 3,
+    "questions": 20,
+    "mean_cluster_pair_f1": 1.0,
+    "mean_compression_rate": 0.5,
+    "mean_nominees_per_intent": 2.0,
+    "fully_offline": true
+  },
+  "scenarios": [
+    {
+      "scenario": "architecture_review",
+      "questions": 8,
+      "predicted_intents": 4,
+      "truth_intents": 4,
+      "multi_question_intents": 4,
+      "semantic_compression_rate": 0.5,
+      "cluster_pair_precision": 1.0,
+      "cluster_pair_recall": 1.0,
+      "cluster_pair_f1": 1.0,
+      "participant_coverage_in_intents": 4,
+      "nominee_count": 8,
+      "avg_nominees_per_intent": 2.0,
+      "fallback_mode": true
+    },
+    {
+      "scenario": "incident_review",
+      "questions": 6,
+      "predicted_intents": 3,
+      "truth_intents": 3,
+      "multi_question_intents": 3,
+      "semantic_compression_rate": 0.5,
+      "cluster_pair_precision": 1.0,
+      "cluster_pair_recall": 1.0,
+      "cluster_pair_f1": 1.0,
+      "participant_coverage_in_intents": 4,
+      "nominee_count": 6,
+      "avg_nominees_per_intent": 2.0,
+      "fallback_mode": true
+    },
+    {
+      "scenario": "fintech_design",
+      "questions": 6,
+      "predicted_intents": 3,
+      "truth_intents": 3,
+      "multi_question_intents": 3,
+      "semantic_compression_rate": 0.5,
+      "cluster_pair_precision": 1.0,
+      "cluster_pair_recall": 1.0,
+      "cluster_pair_f1": 1.0,
+      "participant_coverage_in_intents": 4,
+      "nominee_count": 6,
+      "avg_nominees_per_intent": 2.0,
+      "fallback_mode": true
+    }
+  ]
+}
