@@ -1,0 +1,21 @@
+{
+  "status": "controlled_synthetic_benchmark",
+  "questions": 12,
+  "ground_truth_intents": 4,
+  "predicted_intents": 4,
+  "pair_f1": 1.0,
+  "compression_rate": 0.6667,
+  "pipeline_latency_ms": 64.26,
+  "meetlens_top5_unique_intents": 4,
+  "baseline": {
+    "labels": [
+      "launch",
+      "launch",
+      "launch",
+      "launch",
+      "rollback"
+    ],
+    "unique_intents": 2
+  },
+  "note": "Synthetic controlled evidence only; not external customer validation."
+}
