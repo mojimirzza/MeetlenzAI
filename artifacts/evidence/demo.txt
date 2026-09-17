@@ -1,0 +1,96 @@
+{
+  "meeting_id": "f84120ec-a927-4582-838a-c637f40695a6",
+  "generated_at": "2026-09-10T03:41:21.782568+00:00",
+  "summary": {
+    "title": "Fintech Architecture Review",
+    "domain": "fintech-architecture",
+    "agenda": "launch readiness, resilience, database migration, observability",
+    "participants": 4,
+    "questions": 6,
+    "intents": 4,
+    "nominees": 6,
+    "asked_questions": 1
+  },
+  "metrics": {
+    "semantic_compression_rate": 0.3333,
+    "moderator_acceptance_rate": 1.0,
+    "moderator_edit_rate": 0.0,
+    "moderator_rejection_rate": 0.0,
+    "answer_rate": 1.0,
+    "question_coverage_participants": 4,
+    "categories_with_multiple_questions": 2,
+    "event_count": 3,
+    "coverage_underrepresented": [
+      "distributed-systems",
+      "launch",
+      "observability",
+      "python"
+    ],
+    "coverage_partially_covered": [],
+    "coverage_well_covered": [
+      "architecture",
+      "compliance",
+      "databases",
+      "product",
+      "risk"
+    ]
+  },
+  "decisions": [
+    {
+      "id": "cd8a56a4-626a-478b-a82f-6c88c5145554",
+      "category_id": "cat-b324ee47757d",
+      "action": "approve",
+      "nominee_id": "nom-c5d8a32b7a47",
+      "edited_text": null,
+      "moderator_user_id": "moderator",
+      "reason": "pilot demo",
+      "created_at": "2026-09-10T03:41:21.769769"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "75e2d989-29c9-47ab-934f-e48c2b1e3f8d",
+      "asked_question_id": "1261c818-da31-4ac8-9096-ab2bd7d77f50",
+      "outcome": "answered",
+      "usefulness": 5,
+      "notes": "Pilot demo answer captured",
+      "created_at": "2026-09-10T03:41:21.772786"
+    }
+  ],
+  "audit": [
+    {
+      "id": "cbe2f2b4-cee8-4165-a9e6-a43fffa4008f",
+      "event_type": "PILOT_DEMO_READY",
+      "actor_id": "system",
+      "payload": {
+        "categories": 4,
+        "fallback": true
+      },
+      "trace_id": "575d007c-d331-45d5-bc79-74ef5d67f348",
+      "created_at": "2026-09-10T03:41:21.768773"
+    },
+    {
+      "id": "9259520f-d7f8-4956-9220-dddf1564da0f",
+      "event_type": "MODERATOR_APPROVED",
+      "actor_id": "moderator",
+      "payload": {
+        "asked_question_id": "1261c818-da31-4ac8-9096-ab2bd7d77f50",
+        "nominee_id": "nom-c5d8a32b7a47"
+      },
+      "trace_id": "477a92fa-477b-4046-bca1-9d8e4970e6ef",
+      "created_at": "2026-09-10T03:41:21.771298"
+    },
+    {
+      "id": "74d5c53e-59e5-4560-8bf2-153a41a12b95",
+      "event_type": "QUESTION_OUTCOME_RECORDED",
+      "actor_id": null,
+      "payload": {
+        "asked_question_id": "1261c818-da31-4ac8-9096-ab2bd7d77f50",
+        "outcome": "answered",
+        "usefulness": 5
+      },
+      "trace_id": "d9c306ff-770e-4761-9803-0b95deec18fe",
+      "created_at": "2026-09-10T03:41:21.774024"
+    }
+  ]
+}
